@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/intro-website/static/css/main.ae98b6ce.css",
+    "main.js": "/intro-website/static/js/main.5cc9861e.js",
+    "static/media/camp-project.png": "/intro-website/static/media/camp-project.c6b29f7f90d40e7ee8dd.png",
+    "static/media/book2Big.png": "/intro-website/static/media/book2Big.2dea6665361efb67a7cf.png",
+    "static/media/project-2.png": "/intro-website/static/media/project-2.b3640e5a8b59c58b4ed9.png",
+    "static/media/hat2.png": "/intro-website/static/media/hat2.050807f9ef3bb27c9704.png",
+    "static/media/face.png": "/intro-website/static/media/face.3ea80de32fff8306df1c.png",
+    "static/media/resume.png": "/intro-website/static/media/resume.588a412e141f8592edd6.png",
+    "static/media/project-img.png": "/intro-website/static/media/project-img.22dfc067f1bee760376c.png",
+    "static/media/book2.png": "/intro-website/static/media/book2.6267c5dbfe8b8055e4d5.png",
+    "index.html": "/intro-website/index.html",
+    "main.ae98b6ce.css.map": "/intro-website/static/css/main.ae98b6ce.css.map",
+    "main.5cc9861e.js.map": "/intro-website/static/js/main.5cc9861e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae98b6ce.css",
+    "static/js/main.5cc9861e.js"
+  ]
+}
