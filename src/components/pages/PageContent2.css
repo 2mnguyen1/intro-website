@@ -1,0 +1,233 @@
+
+.page-content2 {
+    background: black;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Inter;
+}
+
+.page-content2 .title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.title-content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.title-content2 h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.section2 {
+    margin-top: 105px;
+    width: 325px;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: 13px 19px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    position: relative;
+    padding: 10px;
+}
+
+.section2 > img {
+    position: absolute;
+    left: 30%;
+    top: -20%;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+}
+
+.section2 .info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info2 h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info2 ul li{
+    padding: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.84rem;
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+.info2 ul{
+    position: absolute;
+    transition: transform 0.3s ease-in;
+}
+.show{
+    transform: translateY(0);
+}
+.hide {
+    transform: translateY(102%);
+}
+
+.display-img {
+    width: 100%;
+    height: 30vh;
+    background-image: url('./imgs/camp-project.png');
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.darking{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./imgs/camp-project.png');
+}
+
+.display-img img {
+    margin: 60px 0 0 0;
+    width: 100%;
+    height: 200px;
+    transition: all 0.3s ease-in;
+    border-radius: 20px;
+}
+
+.bluring{
+    opacity: 0.6;
+}
+ p{
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 400;
+    line-height: 24px;
+    color: #919191;
+}
+.line2-straight{
+    display: none;
+}
+
+@media (min-width: 950px) {
+    .line2-straight{
+        display: inline;
+        margin: 0 1rem;
+        height: 100%;
+        width: 10px;
+    }
+    .line2{
+        display: none;
+    }
+    .page-content2 {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .title2{
+        flex-direction: column;
+        padding-right: 10rem;
+    }
+
+    .title-content2{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 1;
+    }
+    .title-content2:nth-of-type(1) {
+        padding-left: 17px;
+    }
+
+    .section2{
+        margin-top: 0;
+        width: 40%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 6rem;
+    }
+    .section2 .info2 {
+        width: 80%;
+        height: fit-content;
+    }
+    .page-content2 h3 {
+        font-size: 1.5rem;
+    }
+    .section2 img {
+        width: 8rem;
+        top: 60%;
+        left: -45%;
+    }
+    .info2 > div {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .display-img ul li {
+        font-size: 1rem;
+        padding: 8px;
+    }
+    .hide {
+        transform: translateY(120%);
+    }
+}
+
+@media (min-width: 1300px) {
+    .display-img {
+        height: 33vh;
+    }
+    .display-img ul li {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 1430px) {
+    .display-img ul li {
+        font-size: 1.16rem;
+    }
+}
+
+@media (min-width: 1550px) {
+    .display-img ul li {
+        font-size: 1.25rem;
+    }
+}
+@media (min-width: 1700px) {
+    .display-img ul li {
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 1790px) {
+    .display-img ul li {
+        font-size: 1.4rem;
+    }
+    .section2 img {
+        left: -41%;
+    }
+}
+@media (min-width: 1900px) {
+    .display-img {
+        height: 35vh;
+    }
+    .display-img ul li {
+        font-size: 1.45rem;
+        padding: 8px;
+    }
+}
+

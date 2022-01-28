@@ -1,0 +1,112 @@
+.intro-section {
+    background: black;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.intro-section h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 14px;
+    color: #919191;
+    margin-bottom: 20px;
+}
+.intro-section h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    margin: 25px 0 10px 0;
+}
+
+.intro-section .intro-btns{
+    margin-bottom: 26px;
+}
+.intro-btns{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.intro-btns span{
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: 10px;
+}
+
+.btn div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro-btns .btn {
+    margin-right: 10px;
+    width: 100px;
+}
+.btn img {
+    width: 16px;
+    height: 16px;
+}
+
+a span {
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: 10px;
+}
+
+.line {
+    margin-top: 10px;
+    border: none;
+    border-top: 2px solid #525050;
+    color: #525050;
+    overflow: visible;
+    text-align: center;
+    height: 2px;
+    width: 60vw;
+}
+
+.intro-section .face-img{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 250px;
+}
+.img-word-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (min-width: 950px) {
+    .intro-section{
+        background: white;
+        color: black;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    .img-word-button {
+        margin: 0 2rem;
+    }
+
+    a:nth-child(1) .btn {
+        background: rgb(160, 156, 156);
+        transition: background 0.3s ease;
+    }
+    a:nth-child(1) .btn:hover {
+        background: #5093E2;
+    }
+    .line{
+        display: none;
+    }
+}
